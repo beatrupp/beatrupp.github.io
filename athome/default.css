@@ -1,0 +1,77 @@
+* {
+  font-family: source-sans-pro, sans-serif ;
+  font-weight: 300;
+}
+
+html {
+  margin: 0 0 0 0;
+}
+
+#header {
+  padding: 50px 20% 50px 20%;
+  overflow: hidden;
+  //height: 230px;
+  text-align: center;
+}
+
+#header > h1 {
+  line-height: 130%; 
+  color: rgba(100, 100, 100, 0.95);
+}
+
+#logo {
+  display: block;
+  height: 150px;
+  width: 150px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+//  height: 230px;
+  background-color: rgba(100, 240, 100, 0.2);
+}
+
+#features > img {
+  display: block;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#faq {
+  padding: 50px 20% 50px 20%;
+}
+
+#faq > h2 {
+  text-align: center;   
+}
+
+#faq > h3 {
+  padding-top: 20px;
+}
+
+#faq > p {
+  line-height: 130%;
+  color: rgba(100, 100, 100, 0.8);
+}
+ 
+#download {
+  padding: 50px 20% 50px 20%;
+  background-color: rgba(100, 100, 100, 0.2);
+}
+
+#download > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  font-size: 70%;
+  padding: 30px 20% 30px 20%;
+}
+
