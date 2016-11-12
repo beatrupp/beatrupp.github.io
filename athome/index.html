@@ -21,11 +21,6 @@
 @home is a tiny convenience utility, that knows when you are at home (based on your wireless network name) and prevents your computer from locking the screen. When you are away from home, your normal locking idle times apply.
 </p>
 
-
-<h3>What should I use @home for?</h3>
-<p>@home is good for cooking when you have your recipes open, or for listening to music.
-</p>
-
 <h3>There are other tools that prevent my Mac from entering sleep mode. Why another one?</h3>
 <p>
 I wanted something that automatically decides to either allow locking or disallow it without manual user interaction. Other tools have slightly different goals, but they need to be triggered manually.
@@ -51,6 +46,13 @@ The same applies as with the Energy Settings: you can set a very low idle time f
 In System Preferences under "Security & Privacy" you need to tick the option "Require password immediately after sleep or screen saver begins".
 </p>
 
+<h3>If I plug or unplug my computer, the status bar icon does not reflect the change</h3>
+  <p>
+  It takes a few seconds until @home is notified about a change in power availability.</p>
+
+<h3>Can @home be started automatically?</h3>
+<p>Yes! Go to System Preferences, Users & Groups, Login Items and hit the + button. Then select the @home app (in /Applications/) and press Add.</p>
+
 <h3>Does @home send data over the internet?</h3>
 <p>
 @home does not send, nor receive any data over network connections. In fact, you can use it completely offline. The only reading it conducts is the name of the currently associated wireless network.
@@ -58,7 +60,7 @@ In System Preferences under "Security & Privacy" you need to tick the option "Re
 
 <h3>Why did you create @home?</h3>
 <p>
-I like to have short lock times on my portables, for the rare case that I forget to manually lock my device when I'm out. At home it's rather a nuisance to retype my password over and over again. As long as I lock my apartment, I can be sure that no one will tamper with my portables. @home makes sure that I am secure while on the road and at the same time enjoy more convenience at home.
+I like to have short lock times on my portables, for the rare case that I forget to manually lock my device when I'm out. At home it's rather a nuisance to retype my password over and over again. As long as I lock my apartment, I can be sure that no one will tamper with my portables. @home ensures that I am secure while on the road and at the same time enjoy more convenience at home.
 </p>
 
 <h3>What are the system requirements?</h3>
@@ -72,15 +74,26 @@ Reach out to me on beatrupp at gmail dot com
 </p>
 </div>
 
-<div id="download">
-<a href="https://itunes.apple.com/de/app/home/id954592389?l=en&mt=12"><img src="Download_on_the_Mac_App_Store_Badge_US-UK_165x40.svg" /></a>
-</div>
-
 <div id="press">
+  <h2>Press</h2>
   <p>What are others saying about @home?</p>
   <p><a href="http://mac.softpedia.com/get/Internet-Utilities/at-home.shtml">Softpedia 4/5 stars</a></p>
   <p><a href="http://loumo.jp/wp/archive/20161110120038/">Ryo Matsufuji</a></p>
   <p><a href="http://macnews.tistory.com/m/5140">macnews.tistory.com</a></p>
+</div>
+
+<div id="changelog">
+  <h2>Changelog</h2>
+  <p>Version 1.1.0, Nov 13 2016</p>
+  <p>- @home is now only active when you are connected to power (this prevents draining your battery)<br />
+  - Conveniently detect the name of the network you are connected to
+  </p>
+    <p>Version 1.0.2, Nov 1 2016</p>
+  <p>Initial version</p>
+</div>
+
+<div id="download">
+<a href="https://itunes.apple.com/de/app/home/id954592389?l=en&mt=12"><img src="Download_on_the_Mac_App_Store_Badge_US-UK_165x40.svg" /></a>
 </div>
 
 <div id="footer">

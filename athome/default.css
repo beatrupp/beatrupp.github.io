@@ -72,6 +72,11 @@ html {
 
 #press {
   padding: 50px 20% 50px 20%;
+  background-color: rgba(100, 240, 100, 0.2);
+}
+
+#changelog {
+  padding: 50px 20% 50px 20%;
 }
 
 #footer {
