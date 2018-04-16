@@ -1,6 +1,6 @@
 baseURL: "http://example.org/"
 languageCode: "en-us"
 title: "Beat Rupp"
-theme: "hyde"
+theme: "kube"
 sectionPagesMenu: "main"
 
