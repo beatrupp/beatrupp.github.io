@@ -1,0 +1,23 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Beat Rupp"
+theme = "kube"
+description = "I'm a freelance iOS/Swift consultant."
+Paginate = 4
+copyright = "All rights reserved - 2018"
+
+[Params]
+  RSSLink = "/index.xml"
+  author = "Beat Rupp"
+  github = "beatrupp"
+  twitter = "beatrupp"
+  email = "myemail@myaddress.xxx"
+
+[[menu.main]]
+    name = "Portfolio"
+    weight = -100
+    url = "/portfolio/"
+[[menu.main]]
+    name = "Contact"
+    weight = -100
+    url = "/contact/"
